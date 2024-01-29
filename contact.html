@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+<body>
+
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/popper.js"></script>
+    
+   
+   <div class="container">
+    <div class="row">
+        <div class="col-md-12 mt-3">                <!--navigation start from here-->
+            <nav class="navbar navbar-expand-lg navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><strong>Ekart</strong></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" ari-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="Login.html">Login</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="Register.html">Register</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="Logout.html">Logout</a>
+                      </li>
+                  </div>
+                </div>
+              </nav>
+        </div> <!--end of nav-->
+        <!--header end-->
+        
+<!--contact page start-->
+        <div class="row">
+            <div class="col-md-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.909032151922!2d74.12799637465142!3d18.48777927017608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2e15b3bfe4a99%3A0xdddf75094686eb69!2sThe%20Corner%20Mobile%20Shopee!5e0!3m2!1shi!2sin!4v1704696406357!5m2!1shi!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div> <!--google map end-->
+            
+            <div class="row">
+              <div class="col-md-6 mt-5">
+                  <h3><i class="bi bi-building-fill text-danger"></i></h3>
+                  <h4>Address</h4>
+                  The Corner Enterprises, <br>
+                  Bagade Imperial,Uruli Kanchan<br>
+                  Pune-412202<br>
+                  <h6><i class="bi bi-telephone-fill text-danger"></i>&nbsp;&nbsp;9822638328</h6>
+                  <h6><i class="bi bi-envelope-at text-danger"></i>&nbsp;&nbsp;chetanthombare@icloud.com</h6>
+              </div>
+
+              <div class="col-md-6 mt-5">
+                <h3><i class="bi bi-question-circle-fill"></i></h3>
+                <hr>
+                <form method="POST" action="">
+                  <div class="mb-1">
+                    <label for="Input1" class="form-label"><strong>Name:</strong></label>
+                    <input type="email" class="form-control" id="Input1" name="uname" placeholder="">
+                  </div>
+          
+                <div class="mb-1">
+                  <label for="Input2" class="form-label"><strong>Contact:</strong></label>
+                  <input type="number" class="form-control" id="Input2" name="contact" placeholder="">
+                </div>
+          
+                <div class="mb-1">
+                <label for="Input3" class="form-label"><strong>Email:</strong></label>
+                <input type="email" class="form-control" id="Input3" name="email" placeholder="name@example.com">
+                </div>
+          
+                <div class="mb-1">
+                  <label for="Input4" class="form-label"><strong>Message:</strong></label>
+                  <textarea name="msg" class="form-control" cols="20" rows="4"></textarea>
+               </div>
+          
+                <div class="mb-3">
+                    <input type="submit" class="btn btn-success"  value="Send">
+                    
+                </div>
+                </form>
+              </div>
+              
+      
+      
+        </div>
+        <!--contact pagew end-->
+
+              
+        
+    </div>
+    
+
+
+        <!--footer start-->
+    <div class="row">
+        <div class="col-md-4 bg-danger-subtle p-3">
+            <h4>Address</h4>
+            The Corner Enterprises, <br>
+            Bagade Imperial,Uruli Kanchan<br>
+            Pune-412202<br>
+            Contact:9822638328
+        </div>
+
+
+
+        <div class="col-md-4 bg-danger-subtle p-3">
+            <h4>Quick links</h4>
+            <a href="index.html" class="anchor"><strong>Home</strong></a><br>
+            <a href="contact.html"class="anchor"><strong>Contact</strong></a><br>
+            <a href="about.html"class="anchor"><strong>About</strong></a><br>
+        
+        </div>  <!--end of quick links-->
+
+        <div class="col-md-4 bg-danger-subtle p-3">
+            <h4>connect us</h4> 
+
+            <h5 class="social"><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></h5>
+            <h5 class="social"><a herf="https://www.instagram.com" target="_self"><i class="bi bi-instagram"></i></a></h5>
+        </div>
+    </div>
+   </div>
